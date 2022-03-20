@@ -45,6 +45,7 @@ function checkTime() {
 // run checkTime every 5 minutes to update classes as necessary
 setInterval(checkTime(), 1000 * 60 * 5);
 
+// save each hour textarea to localStorage
 function saveTasks() {
   var inputTextarea9 = document.querySelector(".hour-9");
   $(".saveBtn").on("click", function () {
